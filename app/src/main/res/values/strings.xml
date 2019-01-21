@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">Book Search</string>
+  <string name="action_settings">Settings</string>
+  <string name="action_search">Search</string>
+  <string name="hint_search">Type book name</string>
+  <string name="toolbar_title">Book Search</string>
+  <string name="book_name_hint">Harry Potter and the Prisoner of Azkaban</string>
+  <string name="book_author_hint">J. K. Rowling</string>
+</resources>
