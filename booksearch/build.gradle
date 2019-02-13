@@ -30,7 +30,7 @@ dependencies {
   implementation 'com.android.support:recyclerview-v7:28.0.0'
   implementation 'com.google.android.material:material:1.0.0'
   implementation 'com.jakewharton.rxbinding3:rxbinding:3.0.0-alpha2'
-  implementation 'io.appbase:appbase-droid:1.0.0'
+  implementation 'io.appbase:appbase-droid:1.0.1-SNAPSHOT'
   implementation 'com.google.code.gson:gson:2.8.5'
   implementation 'com.jakewharton:butterknife:10.0.0'
   annotationProcessor 'com.jakewharton:butterknife-compiler:10.0.0'

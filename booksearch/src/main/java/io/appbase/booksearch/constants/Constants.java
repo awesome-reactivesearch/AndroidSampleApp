@@ -6,8 +6,10 @@ public final class Constants {
   public static final String TYPE = "good-books-ds";
   public static final String USERNAME = "gBgUqs2tV";
   public static final String PASSWORD = "3456f3bf-ea9e-4ebc-9c93-08eb13e5c87c";
-  public static final String MATCH_ALL = "{ \"match_all\": {} }";
-  public static final String SEARCH = "{\n" +
+  public static final String MATCH_ALL = "{ \"query\": { \"match_all\": {} } }";
+  public static final String SEARCH =
+      "{\n" +
+      "  \"query\": {\n" +
       "    \"bool\": {\n" +
       "      \"must\": [\n" +
       "        {\n" +
@@ -53,8 +55,10 @@ public final class Constants {
       "        }\n" +
       "      ]\n" +
       "    }\n" +
+      "  }\n" +
       "}";
 
   private Constants() {
+    throw new AssertionError("no instances");
   }
 }
